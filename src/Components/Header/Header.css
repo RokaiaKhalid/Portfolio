@@ -1,0 +1,131 @@
+/*===================================
+    table of contents
+=====================================
+1. Header Design
+2. Button & Icon
+3. Modal == pop up
+4. REsponsive Design (media query)
+*/
+
+/* Header Design */
+header.flex{
+    justify-content: space-between;
+    padding: 1.2rem 2rem;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    background-color: var(--secondary);
+}
+header .menu{
+    display: none;
+}
+header nav{
+    background-color: var(--bgheader);
+    padding: 0.77rem 1.6rem;
+    border-radius: 55px; 
+    box-shadow: 1px 1px 40px rgb(65, 58, 58);
+}
+
+/* modal ** pop up */
+header .fixed {
+    position: fixed;
+    /* top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0; */
+    inset: 0;
+    background-color: rgba(40, 40, 40, 0.91);
+    z-index: 1000;
+    /* filter: blur(8px); */
+    backdrop-filter: blur(5px);
+}
+header .fixed ul.mudal{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    background-color: var(--secondary);
+    animation: mymove .7s 1 ;
+}
+@keyframes mymove {
+    0%{
+        scale: 0;
+    }
+    60%{
+        scale: 1.2;
+    }
+    100%{
+        scale:1;
+    }   
+}
+header .fixed ul.mudal li:not(:last-of-type){
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0.77rem;
+}
+header .fixed ul.mudal li:not(:last-of-type){
+    font-size: 1rem;
+}
+header .fixed ul.mudal li:first-child{
+    text-align: right;
+    border: none;
+    padding-top: 0.2rem;
+    margin-bottom: -2rem;
+}
+header ul.flex {
+    gap: 10px;
+}
+header ul li a {
+    color: var(--title);
+    opacity: 0.9;
+    font-size: 0.88rem;
+    font-weight: 500;
+    transition: 0.3s;
+}
+header ul li a:hover{
+    opacity: 1;
+    font-size: 0.9rem;
+
+}
+
+/* Button & Icon */
+header button:not(.icon-cross){
+    font-size: 1.2rem;
+    width: 2.4rem;
+    height: 2.4rem;
+    border: 1px solid rgb(40, 40, 40);
+    border-radius: 50%;
+    transition: .2s;
+    justify-content: center;
+}
+header button:not(.icon-cross):hover{
+    color: var(--title);
+    border-color: rgb(127, 117, 117);
+}
+header button.icon-cross{
+    font-size: 1.3rem;
+    transition: .3s;
+}
+header button.icon-cross:hover{
+    font-size: 1.6rem;
+    color: var(--title);
+    rotate: 180deg;
+}
+
+/* Responsive Design */
+@media (max-width: 700px) {
+    header .menu{
+        display: block;
+    }
+    header nav{
+        display: none;
+    }
+}
+@media (min-width: 701px) {
+    header .fixed{
+        display: none;
+    }
+    
+}

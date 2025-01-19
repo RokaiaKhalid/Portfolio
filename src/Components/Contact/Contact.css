@@ -1,0 +1,97 @@
+section.contact-us .icon-envelope-o {
+    color: var(--subtitle);
+    margin-right: 1rem;
+    font-size: 1.8rem;
+}
+section.contact-us .title{
+    font-size: 2.1rem;
+    color: var(--title);
+    margin-bottom: 1rem;
+}
+section.contact-us .sub-title{
+    color: var(--subtitle);
+    margin-bottom: 2rem;
+}
+.contact-us form{
+    width: 55%;
+}
+.contact-us form div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 1rem;
+}
+.contact-us label{
+    color: var(--subtitle);
+    font-weight: bold;
+    width: 8rem;
+}
+.contact-us #email, .contact-us #message{
+    all: unset;
+    background-color: rgba(63, 63, 70, 0.15);
+    border: 1px solid rgb(63, 63, 70);
+    width: 65%;
+    padding:0.7rem 1rem;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.light #email, .light #message{
+    background-color: rgba(255, 255, 255, 0.162);
+    border-color: rgba(120, 120, 120, 0.401);
+    box-shadow: 1px 1px 1px rgba(73, 73, 73, 0.105);
+}
+.contact-us #message{
+    min-height: 9rem;
+    resize: vertical;
+}
+.contact-us #email:focus,
+.contact-us #message:focus{
+    border: 1px solid var(--blue);
+}
+.contact-us #email:focus::placeholder,
+.contact-us #message:focus::placeholder{
+    color: transparent;
+}
+.contact-us #email:hover,
+.contact-us #message:hover{
+    border: 1px solid var(--blue);
+}
+.light .contact-us #email:focus,
+.light .contact-us #message:focus,
+.light .contact-us #email:hover,
+.light .contact-us #message:hover{
+    border: 1px solid #706969a2;
+}
+.contact-us button{
+    background-color: #24252e;
+    width: 11rem;
+    padding: 0.75rem 0;
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 1.05rem;
+    font-weight: bold;
+
+    border-radius: 5px;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+.contact-us button:hover{
+    opacity: 1;
+    scale: 0.97;
+}
+
+@media (max-width: 600px) {
+    .contact-us .animation{
+        display: none;
+    }
+    .contact-us > .flex{
+        margin: auto;
+    }
+    .contact-us form{
+        width: 100%;
+    }
+    .contact-us form div{
+        flex-direction: column;
+        align-items: start;
+    }
+}

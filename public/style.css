@@ -1,0 +1,128 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?k2r9cg');
+  src:  url('fonts/icomoon.eot?k2r9cg#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?k2r9cg') format('truetype'),
+    url('fonts/icomoon.woff?k2r9cg') format('woff'),
+    url('fonts/icomoon.svg?k2r9cg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-csharp:before {
+  content: "\e905";
+  color: #239120;
+}
+.icon-visualstudiocode:before {
+  content: "\e906";
+  color: #007acc;
+}
+.icon-mongodb:before {
+  content: "\e907";
+  color: #47a248;
+}
+.icon-node-dot-js:before {
+  content: "\e908";
+  color: #393;
+}
+.icon-typescript:before {
+  content: "\e909";
+  color: #007acc;
+}
+.icon-jquery:before {
+  content: "\e90a";
+  color: #0769ad;
+}
+.icon-sass:before {
+  content: "\e90b";
+  color: #c69;
+}
+.icon-tailwindcss:before {
+  content: "\e90c";
+  color: #38b2ac;
+}
+.icon-react:before {
+  content: "\e90d";
+  color: #61dafb;
+}
+.icon-javascript:before {
+  content: "\e90e";
+  color: #f7df1e;
+}
+.icon-css31:before {
+  content: "\e90f";
+  color: #1572b6;
+}
+.icon-x:before {
+  content: "\e901";
+}
+.icon-keyboard_arrow_up:before {
+  content: "\e902";
+}
+.icon-verified:before {
+  content: "\e903";
+}
+.icon-envelope-o:before {
+  content: "\f003";
+}
+.icon-arrow-right:before {
+  content: "\f061";
+}
+.icon-facebook-square:before {
+  content: "\f082";
+}
+.icon-github:before {
+  content: "\f09b";
+}
+.icon-html5:before {
+  content: "\f13b";
+}
+.icon-css3:before {
+  content: "\f13c";
+}
+.icon-moon-o:before {
+  content: "\f186";
+}
+.icon-paper-plane:before {
+  content: "\f1d8";
+}
+.icon-send:before {
+  content: "\f1d8";
+}
+.icon-whatsapp:before {
+  content: "\f232";
+}
+.icon-menu:before {
+  content: "\e900";
+}
+.icon-link:before {
+  content: "\e9cb";
+}
+.icon-sun:before {
+  content: "\e9d4";
+}
+.icon-cross:before {
+  content: "\ea0f";
+}
+.icon-terminal:before {
+  content: "\ea81";
+}
+.icon-linkedin:before {
+  content: "\eac9";
+}

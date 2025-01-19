@@ -1,0 +1,10 @@
+import pro_1 from "/public/images/pro_1.png";
+import pro_2 from "/public/images/pro_2.png";
+import pro_3 from "/public/images/pro_3.png";
+import pro_4 from "/public/images/pro_4.png";
+import pro_5 from "/public/images/pro_5.png";
+import pro_6 from "/public/images/pro_6.png";
+import pro_7 from "/public/images/pro_7.png";
+import pro_8 from "/public/images/pro_8.png";
+import pro_9 from "/public/images/pro_9.png";
+export const myImgsPros = [pro_1, pro_2, pro_3, pro_4, pro_5, pro_6, pro_7, pro_8, pro_9];

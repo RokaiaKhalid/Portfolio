@@ -1,0 +1,59 @@
+.hero{
+    height: 80vh;
+    margin-top: 2rem;
+}
+@media (max-width: 1200px) {
+    .hero{
+        margin-top: 5rem;
+    }
+    
+}
+/*===============================
+    1. Left Section
+=================================
+*/
+.hero .left-section{
+    flex-grow: 1;
+}
+.left-section .avater{
+    width: 88px;
+    height: 90px;
+    border-radius: 50%;
+    /* border: 1px solid rgba(236, 173, 57, 0.771); */
+    padding: 3px;
+    box-shadow: 2px 2px 40px gray inset;
+    margin-right: 10px;
+}
+.left-section .icon-verified{
+    color: var(--blue);
+    display: inline-block;
+    margin-bottom: 0.3rem;
+}
+.left-section .title{
+    font-size: 2.05rem;
+    line-height: 3.3rem;
+    margin: 24px 0;
+    color: var(--title)
+}
+.left-section .sub-title{
+    color: var(--subtitle);
+    font-size: 0.9rem;
+    line-height: 1.65rem;
+}
+.left-section .social {
+    gap: 1rem;
+    padding-top: 15px;
+    font-size: 1.3rem;
+    color: var(--subtitle)
+}
+.left-section .social .icon:hover{
+    font-size: 1.5rem;
+    transition: .3s;
+    cursor: pointer;
+    color: var(--icon-hover)
+}
+/*===============================
+    1. Right Section => animation
+=================================
+*/
+/* in index.css */
