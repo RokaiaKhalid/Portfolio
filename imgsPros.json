@@ -1,0 +1,74 @@
+[
+    {
+        "name": "CRUDS",
+        "skills": ["css3", "html5", "javascript", "localstorage"],
+        "description": "Main skills in programming and they are create, update, delete, search with HTML, CSS, JS",
+        "homepage": "https://rokaiakhalid.github.io/CRUDS/",
+        "html_url": "https://github.com/RokaiaKhalid/CRUDS",
+        "src_img": "/public/images/pro_1.png"
+    },
+    {
+        "name": "ElBader",
+        "skills":  ["css3", "html5", "javascript"],
+        "description": "Templete website to  company  with more ideas and features HTML & CSS & JS ",
+        "homepage": "https://rokaiakhalid.github.io/ElBader/",
+        "html_url": "https://github.com/RokaiaKhalid/ElBader",
+        "src_img": "/public/images/pro_2.png"
+    },
+    {
+        "name": "Kasper",
+        "skills": ["css3", "html5", "javascript"],
+        "description": "portfolio to company to service services with more… and animation and resposive with HTML & CSS & JS",
+        "homepage": "https://rokaiakhalid.github.io/Kasper/",
+        "html_url": "https://github.com/RokaiaKhalid/Kasper",
+        "src_img": "/public/images/pro_3.png"
+    },
+    {
+        "name": "News-Reactjs",
+        "skills": ["bootstrap", "css3", "reactjs"],
+        "description": "News clone Project  with HTML, CSS, Bootstrap, JS, React js",
+        "homepage": "https://rokaiakhalid.github.io/News-Reactjs/",
+        "html_url": "https://github.com/RokaiaKhalid/News-Reactjs",
+        "src_img": "/public/images/pro_4.png"
+    },
+    {
+        "name": "Rokaia",
+        "skills": ["css3", "html5"],
+        "description": "Portfolio Landing with HTML, CSS ,JS",
+        "homepage": "https://rokaiakhalid.github.io/Rokaia/",
+        "html_url": "https://github.com/RokaiaKhalid/Rokaia",
+        "src_img": "/public/images/pro_5.png"
+    },
+    {
+        "name": "Special-Design",
+        "skills": ["css3", "html5", "javascript"],
+        "description": "Templete To Company with more ideas and features l…line, Features, Testimonials with HTML & CSS & JS",
+        "homepage": "https://rokaiakhalid.github.io/Special-Design/",
+        "html_url": "https://github.com/RokaiaKhalid/Special-Design",
+        "src_img": "/public/images/pro_6.png"
+    },
+    {
+        "name": "Tailwind_css",
+        "skills":  [ "html5", "javascript", "tailwindcss"],
+        "description": "Tailwindcss clone with some changes , it's templete One with HTML & Tailwindcss & js",
+        "homepage": "https://rokaiakhalid.github.io/Tailwind_css/",
+        "html_url": "https://github.com/RokaiaKhalid/Tailwind_css",
+        "src_img": "/public/images/pro_7.png"
+    },
+    {
+        "name": "Templete-One-Lean-",
+        "skills":  ["css3", "html5", "javascript"],
+        "description": "Portfolio content on more features like services, about, projects...",
+        "homepage": "https://rokaiakhalid.github.io/Templete-One-Lean-/",
+        "html_url": "https://github.com/RokaiaKhalid/Templete-One-Lean-",
+        "src_img": "/public/images/pro_8.png"
+    },
+    {
+        "name": "XYZ-To-Editing",
+        "skills":  ["reactjs", "tailwindcss"],
+        "description": "Project to website to courses and services with mo…atures  with HTML, CSS, Tailwindcss, JS, React js",
+        "homepage": "https://rokaiakhalid.github.io/XYZ-To-Editing/",
+        "html_url": "https://github.com/RokaiaKhalid/XYZ-To-Editing",
+        "src_img": "/public/images/pro_9.png"
+    }
+]
