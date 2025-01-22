@@ -6,20 +6,21 @@ footer ul{
     gap: 1rem;
 }
 footer ul a {
-    color: var(--subtitle);
+    color: var(--secondarytitle);
     font-size: 0.9rem;
     transition: 0.3s;
     font-weight: 500;
 }
 footer ul a:hover {
-    color: var(--blue);
+    color: var(--bgbox);
     font-size: 1rem;
 }
+/* Social in index.css */
 footer p{
-    color: rgb(113, 113, 122);
+    color: rgba(113, 113, 122, 0.738);
 }
 /* Media Query */
-@media (max-width: 600px) {
+@media (max-width: 767px) {
     footer.flex{
         flex-direction: column;
         text-align: center;

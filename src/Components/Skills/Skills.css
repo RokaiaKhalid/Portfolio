@@ -1,0 +1,22 @@
+/* My Skills */
+.skills{
+    justify-content: center;
+    .container-skills {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+        .skill {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: var(--title);
+            gap: 1rem;
+            span {
+                font-size: 2rem;
+            }
+            p {
+                font-weight: bold;
+            }
+        }
+    }
+}

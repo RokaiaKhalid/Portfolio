@@ -16,17 +16,6 @@ const Hero = () => {
   return (
     <section className="hero flex" id="about">
       <article className="left-section">
-        <div className="parent-avater">
-          <motion.img
-            initial={{ scale: 0 }}
-            animate={{ scale: 1 }}
-            transition={{ duration: 2 }}
-            src={MyImg}
-            alt=""
-            className="avater"
-          />
-          <span className="icon-verified"></span>
-        </div>
         <motion.h2
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -36,7 +25,7 @@ const Hero = () => {
           Front End React Developer
         </motion.h2>
         <p className="sub-title">
-          Hi, I&apos;m Rokaia Khalid <br/>
+          Hi, I&apos;m <span className="name">Rokaia Khalid</span> <br/>
           As a dedicated front-end developer
           specializing in frameworks like React.js, I thrive in collaborative
           work environments where creativity and innovation are encouraged.
@@ -53,9 +42,9 @@ const Hero = () => {
             <div className="icon icon-facebook-square"></div>
           </a>
           <a href="https://wa.me/+201090098257">
-            <div className="icon icon-x"></div>
+            <div className="icon icon-whatsapp"></div>
           </a>
-          <a href="https://www.linkedin.com/in/rokaia-khalid-b3ab50288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app8">
+          <a href="https://www.linkedin.com/in/rokaia-khalid">
             <div className="icon icon-linkedin"></div>
           </a>
         </div>

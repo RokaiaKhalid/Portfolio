@@ -1,47 +1,35 @@
 import "./Main.css";
-import { myImgsPros } from "./imgsPros";
+// import { myImgsPros } from "./imgsPros";
 import { useState, useEffect } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 const Main = () => {
   const [catigory, setCatigory] = useState("all");
   const [repos, setRepos] = useState([]);
   const [filteredRepos, setFilteredRepos] = useState([]);
-  const username = "RokaiaKhalid";
 
   useEffect(() => {
-    let url = `https://api.github.com/users/${username}/repos`;
-    fetch(url)
-      .then((response) => response.json())
-      .then((data) => {
-        data = data.map((pro, i) => ({ ...pro, src_img: myImgsPros[i] }));
+    fetch('./public/imgsPros.json'
+      , {
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        }
+      }
+    )
+      .then((repo) => {
+        return repo.json()
+      })
+     .then((data) => {
         setRepos(data);
       })
       .catch((rej) => console.log(rej));
-  }, [username]);
+  }, []);
 
-  // useEffect(() => {
-  //   const fetchRepos = async () => {
-  //     try {
-  //       const response = await fetch(`https://api.github.com/users/${username}/repos`);
-  //       const reposWithLiveUrls = response.data.map((repo, i) => ({
-  //         ...repo,
-  //         src_img: myImgsPros[i]
-  //       }));
-  //       setRepos(reposWithLiveUrls);
-  //       setFilteredRepos(reposWithLiveUrls);
-  //     } catch (error) {
-  //       Error('خطأ في جلب المستودعات', error);
-  //     }
-  //   };
-
-  //   fetchRepos();
-  // }, [username]);
 
   useEffect(() => {
     const applyFilter = () => {
-      const filtered = repos.filter((repo) => repo.topics.includes(catigory));
+      const filtered = repos.filter((repo) => repo.skills.includes(catigory));
       setFilteredRepos(filtered);
-      console.log(filtered);
     };
 
     applyFilter();
@@ -96,7 +84,7 @@ const Main = () => {
                   className="card"
                   style={{ width: "266px" }}
                 >
-                  <img src={`./../../..${item.src_img}`} alt="" />
+                  <img src={`.${item.src_img}`} alt="" />
                   <div className="box">
                     <h1 className="title">{item.name}</h1>
                     <p className="sub-title">{item.description}</p>
@@ -107,13 +95,15 @@ const Main = () => {
                       <a href={item.html_url}>
                         <span className="icon-github"></span>
                       </a>
-                      {/* <a href="" className='flex'>More<span className='icon-arrow-right' style={{alignSelf: "end"}}></span></a> */}
                     </div>
                   </div>
                 </motion.article>
               );
             })}
           </AnimatePresence>
+          <div style={{width: '100%'}}></div>
+          <a href="https://github.com/RokaiaKhalid?tab=repositories" target="_blank" className='flex'>More<span className='icon-arrow-right' style={{alignSelf: "end"}}></span></a>
+
         </section>
       </div>
       

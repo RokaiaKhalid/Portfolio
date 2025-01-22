@@ -9,11 +9,9 @@
 
 /* Header Design */
 header.flex{
+    margin: auto;
     justify-content: space-between;
     padding: 1.2rem 2rem;
-    position: fixed;
-    left: 50%;
-    transform: translateX(-50%);
     width: 90%;
     background-color: var(--secondary);
 }
@@ -23,7 +21,11 @@ header .menu{
 header nav{
     background-color: var(--bgheader);
     padding: 0.77rem 1.6rem;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
     border-radius: 55px; 
+    /* box-shadow: 1px 1px 40px var(--bgbox); */
     box-shadow: 1px 1px 40px rgb(65, 58, 58);
 }
 
@@ -65,8 +67,14 @@ header .fixed ul.mudal li:not(:last-of-type){
     border-bottom: 1px solid var(--border);
     padding-bottom: 0.77rem;
 }
+
 header .fixed ul.mudal li:not(:last-of-type){
-    font-size: 1rem;
+    font-size: 1.5rem;
+}
+@media (max-width: 600px) {
+    header .fixed ul.mudal li:not(:last-of-type){
+        font-size: 1rem;
+    }
 }
 header .fixed ul.mudal li:first-child{
     text-align: right;
