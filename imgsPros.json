@@ -2,7 +2,7 @@
     {
         "name": "XYZ-To-Editing",
         "skills":  ["reactjs", "tailwindcss"],
-        "description": "Project to website to courses and services , created with HTML, CSS, Tailwindcss, JS, React js",
+        "description": "Website to courses and services , with animation and attractive, responsive design, created with HTML, CSS, Tailwindcss, JS, React js",
         "homepage": "https://rokaiakhalid.github.io/XYZ-To-Editing/",
         "html_url": "https://github.com/RokaiaKhalid/XYZ-To-Editing",
         "src_img": "/images/pro_9.png"
@@ -18,7 +18,7 @@
     {
         "name": "World_Of_Cars",
         "skills":  ["html5", "css3", "javascript"],
-        "description": "My graduation project,It's for auto parts by car type, contains the Home page, Products, Product details, Login, Cart, Favorite, Buy, Puy, and the possibility to order a special product, created with HTML, CSS, JS.",
+        "description": "Ecommerce is for auto parts by car type, contains the Home page, Products, Product details, Login, Cart, Favorite, Buy, Puy, and order a special product, created with HTML, CSS, JS.",
         "homepage": "https://rokaiakhalid.github.io/World_Of-Cars/",
         "html_url": "https://github.com/RokaiaKhalid/world_Of_Cars",
         "src_img": "/images/pro_11.png"
@@ -26,7 +26,7 @@
     {
         "name": "Tailwind_css",
         "skills":  [ "html5", "javascript", "tailwindcss"],
-        "description": "Tailwindcss clone with some changes , it's templete One, created with HTML, Tailwindcss, js",
+        "description": "Tailwindcss clone with some changes , it's simple page, created with HTML, Tailwindcss, js",
         "homepage": "https://rokaiakhalid.github.io/Tailwind_css/",
         "html_url": "https://github.com/RokaiaKhalid/Tailwind_css",
         "src_img": "/images/pro_7.png"
@@ -34,7 +34,7 @@
     {
         "name": "Special-Design",
         "skills": ["css3", "html5", "javascript"],
-        "description": "Templete To Company with more ideas and features l…line, Features, Testimonials, created with HTML, CSS, JS",
+        "description": "Templete To Company with more ideas and features like Services, Skills, Features, Testimonials, created with HTML, CSS, JS",
         "homepage": "https://rokaiakhalid.github.io/Special-Design/",
         "html_url": "https://github.com/RokaiaKhalid/Special-Design",
         "src_img": "/images/pro_6.png"
@@ -66,7 +66,7 @@
     {
         "name": "News-Reactjs",
         "skills": ["bootstrap", "css3", "reactjs"],
-        "description": "News clone Project, created with Bootstrap, React js",
+        "description": "News clone contains deffirent categories, created with Bootstrap, React js",
         "homepage": "https://rokaiakhalid.github.io/News-Reactjs/",
         "html_url": "https://github.com/RokaiaKhalid/News-Reactjs",
         "src_img": "/images/pro_4.png"
