@@ -5,7 +5,7 @@
         "description": "Project to website to courses and services , created with HTML, CSS, Tailwindcss, JS, React js",
         "homepage": "https://rokaiakhalid.github.io/XYZ-To-Editing/",
         "html_url": "https://github.com/RokaiaKhalid/XYZ-To-Editing",
-        "src_img": "/public/images/pro_9.png"
+        "src_img": "/images/pro_9.png"
     },
     {
         "name": "E-Commerce",
@@ -13,7 +13,7 @@
         "description": "Ecommerce website, contains the Home page, Products, Product details, Login, Cart, created with React js, CSS.",
         "homepage": "https://e-commerce-nine-olive-40.vercel.app/",
         "html_url": "https://github.com/RokaiaKhalid/E-commerce",
-        "src_img": "/public/images/pro_10.png"
+        "src_img": "/images/pro_10.png"
     },
     {
         "name": "World_Of_Cars",
@@ -21,7 +21,7 @@
         "description": "My graduation project,It's for auto parts by car type, contains the Home page, Products, Product details, Login, Cart, Favorite, Buy, Puy, and the possibility to order a special product, created with HTML, CSS, JS.",
         "homepage": "https://rokaiakhalid.github.io/World_Of-Cars/",
         "html_url": "https://github.com/RokaiaKhalid/world_Of_Cars",
-        "src_img": "/public/images/pro_11.png"
+        "src_img": "/images/pro_11.png"
     },
     {
         "name": "Tailwind_css",
@@ -29,7 +29,7 @@
         "description": "Tailwindcss clone with some changes , it's templete One, created with HTML, Tailwindcss, js",
         "homepage": "https://rokaiakhalid.github.io/Tailwind_css/",
         "html_url": "https://github.com/RokaiaKhalid/Tailwind_css",
-        "src_img": "/public/images/pro_7.png"
+        "src_img": "/images/pro_7.png"
     },
     {
         "name": "Special-Design",
@@ -37,7 +37,7 @@
         "description": "Templete To Company with more ideas and features l…line, Features, Testimonials, created with HTML, CSS, JS",
         "homepage": "https://rokaiakhalid.github.io/Special-Design/",
         "html_url": "https://github.com/RokaiaKhalid/Special-Design",
-        "src_img": "/public/images/pro_6.png"
+        "src_img": "/images/pro_6.png"
     },
     {
         "name": "CRUDS",
@@ -45,7 +45,7 @@
         "description": "Main skills in programming and they are create, update, delete,and search, created with HTML, CSS, JS",
         "homepage": "https://rokaiakhalid.github.io/CRUDS/",
         "html_url": "https://github.com/RokaiaKhalid/CRUDS",
-        "src_img": "/public/images/pro_1.png"
+        "src_img": "/images/pro_1.png"
     },
     {
         "name": "ElBader",
@@ -53,7 +53,7 @@
         "description": "Templete website to  company  with more ideas and features, created with HTML, CSS, JS ",
         "homepage": "https://rokaiakhalid.github.io/ElBader/",
         "html_url": "https://github.com/RokaiaKhalid/ElBader",
-        "src_img": "/public/images/pro_2.png"
+        "src_img": "/images/pro_2.png"
     },
     {
         "name": "Kasper",
@@ -61,7 +61,7 @@
         "description": "portfolio to company to service services and more with animation and resposive, created with HTML, CSS, JS",
         "homepage": "https://rokaiakhalid.github.io/Kasper/",
         "html_url": "https://github.com/RokaiaKhalid/Kasper",
-        "src_img": "/public/images/pro_3.png"
+        "src_img": "/images/pro_3.png"
     },
     {
         "name": "News-Reactjs",
@@ -69,7 +69,7 @@
         "description": "News clone Project, created with Bootstrap, React js",
         "homepage": "https://rokaiakhalid.github.io/News-Reactjs/",
         "html_url": "https://github.com/RokaiaKhalid/News-Reactjs",
-        "src_img": "/public/images/pro_4.png"
+        "src_img": "/images/pro_4.png"
     },
     {
         "name": "Templete-One-Lean-",
@@ -77,7 +77,7 @@
         "description": "Portfolio content on more features like services, about, projects..., created with HTML, CSS, JS",
         "homepage": "https://rokaiakhalid.github.io/Templete-One-Lean-/",
         "html_url": "https://github.com/RokaiaKhalid/Templete-One-Lean-",
-        "src_img": "/public/images/pro_8.png"
+        "src_img": "/images/pro_8.png"
     }
     
 ]
